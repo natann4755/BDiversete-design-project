@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.OpenFrgament"
+    android:orientation="vertical"
+    android:background="@color/ColoropenFragment"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="149"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="45"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Open tasks "
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/EditTextWhait"
+                   />
+                <TextView
+                    android:id="@+id/openFrag_size_TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(6)"
+                    android:textSize="21sp"
+                    android:textColor="@color/liteWhait"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true">
+
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/empty_circel">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="19dp"
+                        android:background="@drawable/ic_ios_calendar"
+                        android:src="@drawable/ic_launcher_foreground"
+                        android:layout_centerInParent="true"/>
+                </RelativeLayout>
+
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="40dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:background="@drawable/empty_circel">-->
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_plus_circlel"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="10dp"/>
+<!--                </RelativeLayout>-->
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="49"
+            android:background="@color/editTextBlac">
+
+
+<!--            <SearchView-->
+<!--                android:layout_marginStart="12dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@drawable/edit_text_blac"-->
+<!--                android:hint="Search task…"-->
+<!--                android:theme="@style/SearchViewTheme"-->
+<!--                />-->
+
+            <EditText
+                android:id="@+id/fOPEN_search_ET"
+                android:layout_marginStart="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edit_text_blac"
+                android:hint="Search task…"
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/WhaitLiter"
+                android:textColor="@color/EditTextWhait"
+                android:drawableLeft="@drawable/ic_search_outline"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:background="@drawable/circel_blu"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_filter"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_open_f_RV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="646"
+        />
+
+    </LinearLayout>
+</LinearLayout>

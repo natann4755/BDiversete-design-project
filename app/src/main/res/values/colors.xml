@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#28316F</color>
+    <color name="colorSRCBEKROUND">#1A2891</color>
+    <color name="colorTarget">#181F3A</color>
+    <color name="bacroundEditText">#292F4A</color>
+    <color name="EditTextWhait">#FFFFFF</color>
+    <color name="ColorBotderCekBoxOButton">#246EFF</color>
+    <color name="ColorGreyCHAINCH">#D3C3C9</color>
+    <color name="ColorBootom">#090D1C</color>
+    <color name="backroundAm">#0E142C</color>
+    <color name="ColorGreyselector">#979294</color>
+    <color name="WhaitLiter">#87FFFFFF</color>
+    <color name="liteWhait">#EEEEEE</color>
+    <color name="editTextBlac">#0A0F23</color>
+    <color name="ColoropenFragment">#0E142C</color>
+
+
+
+
+
+    #246EFF
+
+
+
+
+
+
+
+
+
+
+    <color name="colorPrimarylite">#2C3A92</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorGray">#D3C3C9</color>
+</resources>

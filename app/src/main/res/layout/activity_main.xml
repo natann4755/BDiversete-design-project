@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity"
+    android:background="@color/backroundAm">
+
+    <FrameLayout
+        android:id="@+id/AM_fl_FL"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:orientation="horizontal"
+        >
+        <View
+        android:id="@+id/BN_selector_blu1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@color/ColorBotderCekBoxOButton"
+            android:visibility="visible"
+            android:layout_marginRight="7dp"
+            android:layout_marginLeft="7dp"/>
+        <View
+            android:id="@+id/BN_selector_blu2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/ColorBotderCekBoxOButton"
+            android:visibility="invisible"
+            android:layout_marginRight="7dp"
+            android:layout_marginLeft="7dp"/>
+        <View
+            android:id="@+id/BN_selector_blu3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/ColorBotderCekBoxOButton"
+            android:visibility="invisible"
+            android:layout_marginRight="7dp"
+            android:layout_marginLeft="7dp"/>
+        <View
+            android:id="@+id/BN_selector_blu4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/ColorBotderCekBoxOButton"
+            android:visibility="invisible"
+            android:layout_marginRight="7dp"
+            android:layout_marginLeft="7dp"/>
+        <View
+            android:id="@+id/BN_selector_blu5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/ColorBotderCekBoxOButton"
+            android:visibility="invisible"
+            android:layout_marginRight="7dp"
+            android:layout_marginLeft="7dp"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/AM_BottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="@color/bacroundEditText"
+        app:itemIconTint="@color/selector_buttom_bar"
+        app:itemTextColor="@color/selector_buttom_bar"
+        app:tabBackground="@color/selector_buttom_bar"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/am_menu_butomnevig" />
+
+
+</LinearLayout>

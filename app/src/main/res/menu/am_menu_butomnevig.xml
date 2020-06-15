@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+    <item
+        android:id="@+id/action_Open"
+        android:enabled="true"
+        android:icon="@drawable/ic_doun"
+        android:title="Open"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_Done"
+        android:enabled="true"
+        android:icon="@drawable/ic_done"
+        android:title="Done"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_Updates"
+        android:enabled="true"
+        android:icon="@drawable/update"
+        android:title="Updates"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_Inbox"
+        android:enabled="true"
+        android:icon="@drawable/ic_icon_inbox"
+        android:title="Inbox"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_Settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_icon_settings"
+        android:title="Settings"
+        app:showAsAction="ifRoom" />
+</menu>

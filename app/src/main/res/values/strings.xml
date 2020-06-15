@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BDiverse</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="FL_login_TV">Login</string>
+    <string name="FL_et_1_ED">Username</string>
+    <string name="FL_et_2_ED">Password</string>
+    <string name="FL_fb_TV">Forgot password?</string>
+    <string name="FL_text_rm_TV">Remember me</string>
+    <string name="FL_target_TV">TARGET</string>
+    <string name="FL_Beffectiv_TV">B - E F F E C T I V E</string>
+    <string name="fl_strudel_TV">\@\</string>
+</resources>

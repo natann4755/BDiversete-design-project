@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="896"
+    android:background="@color/colorSRCBEKROUND"
+    android:orientation="vertical"
+    tools:context=".Fragment.LoginFragment">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="121" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="569">
+
+        <View
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="524.5"
+            android:id="@+id/l2"
+            android:layout_below="@id/l1"
+            android:background="@color/colorTarget"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="65" />
+
+
+<!--            <ImageView-->
+<!--                android:layout_width="188dp"-->
+<!--                android:layout_height="0dp"-->
+<!--                android:layout_weight="48"-->
+<!--                android:scaleType="fitXY"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:src="@drawable/ic_launcher_background"-->
+<!--                />-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="56"
+                android:layout_gravity="center"
+                android:text="@string/FL_target_TV"
+                android:textSize="37sp"
+                android:textColor="@color/EditTextWhait"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="24"
+                android:layout_gravity="center"
+                android:text="@string/FL_Beffectiv_TV"
+                android:textSize="16sp"
+                android:textColor="@color/EditTextWhait"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="65" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="225"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="25"
+                    android:text="@string/FL_login_TV"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/EditTextWhait"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="32"
+                    android:orientation="horizontal"
+                    android:background="@color/bacroundEditText"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fl_strudel_TV"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/ColorBotderCekBoxOButton"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginEnd="8dp"
+
+                        />
+                <EditText
+                    android:id="@+id/FL_username_ET"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/FL_et_1_ED"
+                    android:textColorHint="@color/colorGray"
+                    android:textColor="@color/EditTextWhait"
+                    android:background="@drawable/edit_text"
+                    />
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="10" />
+
+
+                    <EditText
+                        android:id="@+id/FL_password_ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="32"
+                        android:hint="@string/FL_et_2_ED"
+                        android:textColorHint="@color/colorGray"
+                        android:textColor="@color/EditTextWhait"
+                        android:background="@drawable/edit_text"
+                        android:drawableLeft="@drawable/ic_lock_black_24dp"
+                        android:drawablePadding="9dp"
+                        android:paddingStart="14dp"
+
+
+                        />
+
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="12" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/FL_fb_TV"
+                        android:textColor="@color/colorGray"
+                        android:layout_alignParentLeft="true"
+                        android:fontFamily="Poppins Regular"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="11dp">
+                    <CheckBox
+                        android:id="@+id/FL_remember_CB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/ColorBotderCekBoxOButton"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/FL_text_rm_TV"
+                        android:textColor="@color/colorGray"
+                        android:fontFamily="Poppins Regular"
+                        />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="70" />
+
+
+            <Button
+                android:id="@+id/FL_button_login_BTN"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="46"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/FL_login_TV"
+                android:textColor="@color/EditTextWhait"
+                android:background="@drawable/button_rectangel"
+                android:textAllCaps="false"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="17" />
+
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="71dp"
+            android:layout_height="71dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/circel">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_launcher_foreground" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="112"
+        android:background="@color/ColorBootom" />
+
+
+</LinearLayout>
